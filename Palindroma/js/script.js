@@ -18,11 +18,11 @@ if(final === true){
 function palindromWord (userWordtoCheck){
 
     userWord = false;
-    let checkword = "";
+    let checkword ='';
 
-    for(let i = userWordtoCheck.length; i>=0; i--){
-        
+    for(let i = userWordtoCheck.length-1; i>=0; i--){
         checkword += userWordtoCheck[i];
+        console.log(checkword);
     }
 
     if(userWordtoCheck === checkword ){
