@@ -30,5 +30,6 @@ function palindromWord (userWordtoCheck){
     }
 
     console.log(userWord);
+   
     return userWord;
 }
